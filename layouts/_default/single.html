@@ -54,6 +54,11 @@
   {{- if (.Param "comments") }}
   {{- partial "comments.html" . }}
   {{- end }}
+
+  {{- if (.Param "enableGitalk") }}
+  {{- partial "gitalk.html" . }}
+  {{- end }}
+
 </article>
 
 {{- end }}{{/* end main */}}
