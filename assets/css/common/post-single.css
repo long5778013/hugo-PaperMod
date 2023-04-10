@@ -1,3 +1,8 @@
+strong {
+    font-weight: bold;
+    color: var(--color-tag-red);
+}
+
 .page-header,
 .post-header {
     margin: 24px auto var(--content-gap) auto;
@@ -198,7 +203,8 @@
     padding: 4px 6px;
     font-size: 0.78em;
     line-height: 1.5;
-    background: var(--code-bg);
+    background: var(--color-light-gray);
+    color: var(--color-tag-red);
     border-radius: 2px;
 }
 
@@ -318,13 +324,16 @@
     display: block;
     padding-inline-start: 14px;
     padding-inline-end: 14px;
-    color: var(--secondary);
+    color: var(--color-light-gray);
     font-size: 14px;
     line-height: 34px;
-    background: var(--code-bg);
+    background: var(--color-tag-red);
 }
 
-.post-tags a:hover,
+.post-tags a:hover{
+    color: var(--color-black);
+    background: var(--color-white);
+}
 .paginav a:hover {
     background: var(--border);
 }

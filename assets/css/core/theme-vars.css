@@ -13,6 +13,13 @@
     --tertiary: rgb(214, 214, 214);
     --content: rgb(31, 31, 31);
     --hljs-bg: rgb(28, 29, 33);
+    --color-red: rgb(254, 6, 6);
+    --color-white: rgb(249, 246, 246);
+    --color-gray: rgb(74, 74, 74);
+    --color-black: rgb(6, 0, 0);
+    --color-green: rgb(19, 222, 8);
+    --color-light-gray:rgb(248, 242, 244);
+    --color-tag-red:rgb(184, 54, 80);
     --code-bg: rgb(245, 245, 245);
     --border: rgb(238, 238, 238);
 }
